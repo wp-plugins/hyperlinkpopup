@@ -32,7 +32,7 @@
 		$('#pop_frame').css('height',pop_ht-35+'px');
 		$('#pop_frame').css('width',pop_wd-45+'px');
 
-		$('a[rel*=pop]').live('click',function(){
+		$('a[rel*=pop]').live('click',function(e){e.preventDefault();
 			pop_src = $(this).attr('href');
 			title = $(this).attr('title');
 			if(title.length == 0){
