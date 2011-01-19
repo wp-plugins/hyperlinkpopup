@@ -17,10 +17,8 @@ To open hyperlinks as a popup\
 \
 == Description ==\
 \
-\pard\pardeftab720\ql\qnatural
-\cf0 To open hyperlinks as a popup. Advantage of using this plugin is not to focus from parent page, more like a preview of the link.\
-\pard\pardeftab720\ql\qnatural
-\cf0 \
+To open hyperlinks as a popup. Advantage of using this plugin is not to focus from parent page, more like a preview/demo of the link.\
+\
 == Installation ==\
 \
 This section describes how to install the plugin and get it working.\
@@ -30,4 +28,5 @@ e.g.\
 1. Upload `hyperlinkPopup.php` to the `/wp-content/plugins/` directory\
 2. Activate the plugin through the 'Plugins' menu in WordPress\
 3. Use regular hyperlink tags <a href="link_url" rel="pop"></a>, add "rel=pop" to the hyperlink\
+4. The title of the popup is the title of hyperlink if provided, otherwise the link url\
 }
