@@ -1,7 +1,7 @@
 <?php
 /* 
 Plugin Name: hyperlink popup
-Pligin Description: open a hyperlink in a popup overlaying the parent page,  to use: add rel='pop' to the hyperlink tag eg. &lt;a href="link_url" rel="pop"&rt;&lt;/a&rt; 
+Pligin Description: open a hyperlink in a popup overlaying the parent page,  to use: add rel='pop' to the hyperlink tag eg. &lt;a href="link_url" rel="pop"&rt;link&lt;/a&rt; 
 Version: 1.0 
 Author: Satish Voddi 
 Description: Opens external hyperlinks in a popup, without losing focus from parent page 
